@@ -1,0 +1,25 @@
+[project]
+name = "oddba-looter"
+version = "0.1.0"
+description = "ODDBA 中文社区每日签到，签到宝箱奖励 / 每日任务奖励自动领取脚本"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = [
+    "curl-cffi~=0.15",
+    "beautifulsoup4~=4.15",
+    "python-dotenv~=1.2",
+    "loguru~=0.7.3",
+]
+
+[project.scripts]
+oddba-looter = "oddba_looter.cli:main"
+
+[tool.uv]
+package = true
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/oddba_looter"]
