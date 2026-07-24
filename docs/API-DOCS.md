@@ -55,13 +55,13 @@
 - 作用：保存搜索历史记录。
 - 自动化建议：忽略。
 
-### `theme_mode`
+#### `theme_mode`
 
 - 作用：保存使用的主题。
 - 值：`theme-light`（默认浅色主题）、`theme-dark`（深色主题）
 - 自动化建议：忽略。
 
-### `preference-bg`
+#### `preference-bg`
 
 - 作用：保存偏好设置。
 - 值：一个 CSS 文件地址，如 `https%3A//sns.oddba.cn/wp-content/uploads/style/wcbl/style.css`。
