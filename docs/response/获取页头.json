@@ -1,0 +1,356 @@
+{
+  "code": 1,
+  "msg": "",
+  "data": {
+    "is_login": true,
+    "is_admin": false,
+    "version": "01254",
+    "comment": {
+      "img_max": 3,
+      "placeholder": "善语结善缘，恶言伤人心，拒绝网络暴力",
+      "toolbar": [
+        {
+          "type": "at"
+        },
+        {
+          "type": "emoji"
+        },
+        {
+          "type": "image"
+        },
+        {
+          "type": "visibility"
+        }
+      ],
+      "visibility": {
+        "tiers": [
+          {
+            "value": "open",
+            "label": "公开"
+          },
+          {
+            "value": "author",
+            "label": "仅作者可见"
+          }
+        ],
+        "pay": [
+          {
+            "currency": "credit",
+            "name": "金币",
+            "min": 1.0,
+            "max": 1000.0,
+            "rmb_ratio": 10.0
+          }
+        ]
+      }
+    },
+    "upload_limit": {
+      "voice": 6.0,
+      "video": 10.0,
+      "file": 12.0,
+      "img": 8.0,
+      "avatar": 1.0,
+      "img_quality": 0.75,
+      "ext": {
+        "img": ["jpg", "jpeg", "png", "gif", "webp"],
+        "video": ["mp4", "webm", "mov", "avi"],
+        "voice": [
+          "mp3",
+          "wav",
+          "aac",
+          "ogg",
+          "oga",
+          "opus",
+          "webm",
+          "weba",
+          "m4a",
+          "flac"
+        ],
+        "file": [
+          "txt",
+          "md",
+          "log",
+          "xls",
+          "xlsx",
+          "csv",
+          "doc",
+          "docx",
+          "ppt",
+          "pptx",
+          "pdf",
+          "zip",
+          "rar",
+          "7z",
+          "tar",
+          "gz",
+          "bz2",
+          "mp3",
+          "wav",
+          "flac",
+          "ogg",
+          "aac",
+          "m4a"
+        ],
+        "avatar": ["jpg", "jpeg", "png", "gif", "webp"]
+      }
+    },
+    "module_enabled": 0,
+    "ls_logo_type": "image",
+    "ls_logo_image": "https://static.oddba.cn/sns/images/logob.png",
+    "ls_logo_svg_code": "",
+    "ls_logo_icon": "<i class='remix-icon ri-chat-smile-2-fill'></i>",
+    "ls_logo_icon_bg": "linear-gradient(135deg, #6366f1, #8b5cf6)",
+    "ls_logo_text": "ODDBA",
+    "ls_logo_text_color": "#1f2937",
+    "ls_nav_menu": [
+      {
+        "badge_color": "#22c55e",
+        "badge_show": false,
+        "badge_text": "NEW",
+        "badge_type": "text",
+        "dropdown_type": "none",
+        "hot_display": "none",
+        "hot_time_range": "all",
+        "hot_title": "",
+        "icon": "<i class='remix-icon ri-home-5-line'></i>",
+        "icon_color": "currentColor",
+        "link": "/",
+        "name": "首页",
+        "target": false
+      },
+      {
+        "badge_color": "#22c55e",
+        "badge_show": false,
+        "badge_text": "NEW",
+        "badge_type": "text",
+        "dropdown_type": "none",
+        "hot_display": "none",
+        "hot_time_range": "all",
+        "hot_title": "",
+        "icon": "<i class='ri-checkbox-multiple-blank-line'></i>",
+        "icon_color": "currentColor",
+        "link": "/bbs",
+        "name": "论坛大厅",
+        "target": false
+      },
+      {
+        "badge_color": "#22c55e",
+        "badge_show": false,
+        "badge_text": "NEW",
+        "badge_type": "text",
+        "dropdown_type": "simple",
+        "hot_display": "none",
+        "hot_time_range": "all",
+        "hot_title": "",
+        "icon": "<i class='ri-alert-line'></i>",
+        "icon_color": "currentColor",
+        "link": "",
+        "name": "病毒检测",
+        "submenu": [
+          {
+            "badge": "none",
+            "badge_num": "",
+            "desc": "",
+            "icon": "<i class='remix-icon ri-fire-fill'></i>",
+            "icon_bg": "#f97316",
+            "link": "https://www.virustotal.com/gui/",
+            "name": "virustotal(支持中文名)",
+            "show_divider": false
+          },
+          {
+            "badge": "none",
+            "badge_num": "",
+            "desc": "",
+            "icon": "<i class='remix-icon ri-fire-fill'></i>",
+            "icon_bg": "#f97316",
+            "link": "https://www.virscan.org/",
+            "name": "virscan(不支持中文名)",
+            "show_divider": false
+          }
+        ],
+        "target": false
+      },
+      {
+        "badge_color": "#22c55e",
+        "badge_show": false,
+        "badge_text": "NEW",
+        "badge_type": "text",
+        "dropdown_type": "simple",
+        "hot_display": "none",
+        "hot_time_range": "all",
+        "hot_title": "",
+        "icon": "<i class='ri-more-line'></i>",
+        "icon_color": "currentColor",
+        "link": "",
+        "name": "更多",
+        "submenu": [
+          {
+            "badge": "none",
+            "badge_num": "",
+            "desc": "",
+            "icon": "<i class='remix-icon ri-fire-fill'></i>",
+            "icon_bg": "#f97316",
+            "link": "/sign",
+            "name": "签到中心",
+            "show_divider": false
+          }
+        ],
+        "target": false
+      }
+    ],
+    "ls_search_show": true,
+    "ls_search_style": "icon_text",
+    "ls_search_text": "有问题、找文件先搜索",
+    "ls_search_placeholder": "搜索内容、用户、标签...",
+    "ls_hot_search": [],
+    "ls_search_require_login": false,
+    "ls_message_show": true,
+    "ls_message_icon": "<i class='remix-icon ri-chat-3-line'></i>",
+    "ls_notify_show": true,
+    "ls_notify_icon": "<i class='remix-icon ri-notification-3-line'></i>",
+    "ls_create_show": true,
+    "ls_create_text": "发布",
+    "ls_create_icon": "<i class='remix-icon ri-add-line'></i>",
+    "ls_create_menu": [
+      {
+        "icon": "<i class='ri-chat-1-line'></i>",
+        "icon_color": "#6366f1",
+        "link": "/publish/words",
+        "name": "动态",
+        "target": false
+      },
+      {
+        "icon": "<i class='remix-icon ri-article-line'></i>",
+        "icon_color": "#13c2c2",
+        "link": "/publish/article",
+        "name": "长文",
+        "target": false
+      },
+      {
+        "icon": "<i class='ri-red-packet-line'></i>",
+        "icon_color": "#fa541c",
+        "link": "javascript:LSRedbag.openSend('post', 0);",
+        "name": "红包",
+        "target": false
+      }
+    ],
+    "ls_create_footer_show": false,
+    "ls_create_footer_text": "创作者中心",
+    "ls_create_footer_link": "/content",
+    "ls_user_card_bg_type": "user_cover",
+    "ls_user_card_color": "#667eea",
+    "ls_user_menu": [
+      {
+        "icon": "<i class='remix-icon ri-user-line'></i>",
+        "link": "",
+        "name": "",
+        "power": "login",
+        "show_count": false,
+        "type": "home"
+      },
+      {
+        "icon": "<i class='remix-icon ri-user-line'></i>",
+        "link": "",
+        "name": "",
+        "power": "login",
+        "show_count": true,
+        "type": "posts"
+      },
+      {
+        "icon": "<i class='remix-icon ri-user-line'></i>",
+        "link": "",
+        "name": "",
+        "power": "login",
+        "show_count": true,
+        "type": "favorites"
+      },
+      {
+        "icon": "<i class='remix-icon ri-user-line'></i>",
+        "link": "",
+        "name": "",
+        "power": "login",
+        "show_count": false,
+        "type": "history"
+      },
+      {
+        "icon": "<i class='remix-icon ri-user-line'></i>",
+        "link": "/task-center",
+        "name": "任务中心",
+        "power": "login",
+        "show_count": false,
+        "type": "custom"
+      },
+      {
+        "icon": "<i class='remix-icon ri-user-line'></i>",
+        "link": "",
+        "name": "",
+        "power": "login",
+        "show_count": false,
+        "type": "divider"
+      },
+      {
+        "icon": "<i class='remix-icon ri-user-line'></i>",
+        "link": "",
+        "name": "",
+        "power": "login",
+        "show_count": false,
+        "type": "settings"
+      },
+      {
+        "icon": "<i class='remix-icon ri-user-line'></i>",
+        "link": "",
+        "name": "",
+        "power": "login",
+        "show_count": false,
+        "type": "logout"
+      }
+    ],
+    "id_name": "社区号",
+    "bbs_name": "论坛",
+    "tag_name": "标签",
+    "article_name": "文章",
+    "bounty_name": "悬赏",
+    "user_id": 123456,
+    "ls_id": 0,
+    "avatar": "https://ods3.oddba.cn/user_files/123456/avatar/4411922_1722662872.png",
+    "avatar_frame": "",
+    "avatar_frame_scale": 1.6,
+    "nickname": "<font class=\"nickname nickname-123456\">nickname</font>",
+    "user_link": "/users/52atytaBwYH",
+    "user_cover": "https://static.oddba.cn/sns/images/bg/userbg1.jpg",
+    "verify": "",
+    "has_vip_levels": true,
+    "is_vip": false,
+    "vip_level": "",
+    "vip_expire_label": "",
+    "level": "<span class=\"ls-mark lv\" title=\"经验值：3344\" style=\"background:#ffb800;color:#ffffff\">略有小成</span>",
+    "level_title": "略有小成",
+    "exp": 3344,
+    "exp_next": 3800,
+    "following_text": "3",
+    "followers_text": "0",
+    "likes": "5",
+    "quick_assets": [
+      {
+        "key": "credit",
+        "amount": "655",
+        "amount_full": "655",
+        "name": "金币",
+        "icon": "<i class=\"remix-icon ri-copper-coin-line\"></i>"
+      }
+    ],
+    "notice_count": 0,
+    "message_count": 0,
+    "notice_unread": {
+      "total": 0,
+      "at": 0,
+      "interact": 0,
+      "system": 0
+    },
+    "posts_count": 1,
+    "favorites_count": 0,
+    "sock_puppet": false
+  },
+  "timestamp": 1790269261,
+  "request_id": "0123456789abcdef"
+}

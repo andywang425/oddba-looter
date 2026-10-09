@@ -1,0 +1,557 @@
+{
+  "code": 1,
+  "msg": "领取成功",
+  "data": {
+    "payload": {
+      "title": "任务中心",
+      "overview": {
+        "done": 3,
+        "claimable": 0,
+        "task_total": 471
+      },
+      "week_sign": {
+        "title": "本周签到",
+        "configured": false,
+        "signed_today": true,
+        "signed_days": 6,
+        "total_days": 7,
+        "days": [
+          {
+            "date": "2026-09-21",
+            "label": "一",
+            "today": false,
+            "signed": true,
+            "icon_class": "",
+            "icon": ""
+          },
+          {
+            "date": "2026-09-22",
+            "label": "二",
+            "today": false,
+            "signed": true,
+            "icon_class": "",
+            "icon": ""
+          },
+          {
+            "date": "2026-09-23",
+            "label": "三",
+            "today": false,
+            "signed": true,
+            "icon_class": "",
+            "icon": ""
+          },
+          {
+            "date": "2026-09-24",
+            "label": "四",
+            "today": false,
+            "signed": true,
+            "icon_class": "",
+            "icon": ""
+          },
+          {
+            "date": "2026-09-25",
+            "label": "五",
+            "today": false,
+            "signed": true,
+            "icon_class": "",
+            "icon": ""
+          },
+          {
+            "date": "2026-09-26",
+            "label": "六",
+            "today": true,
+            "signed": true,
+            "icon_class": "",
+            "icon": ""
+          },
+          {
+            "date": "2026-09-27",
+            "label": "日",
+            "today": false,
+            "signed": false,
+            "icon_class": "",
+            "icon": ""
+          }
+        ],
+        "action_text": "今日已签到"
+      },
+      "sections": [
+        {
+          "key": "daily",
+          "title": "每日任务",
+          "desc": "每天 0 点刷新，完成后及时领取奖励",
+          "items": [
+            {
+              "id": "dlrw1",
+              "group": "daily",
+              "name": "每日登陆",
+              "desc": "每日登陆社区的奖励",
+              "icon": "",
+              "icon_class": "ri-checkbox-circle-line",
+              "icon_color": "",
+              "icon_bg": "",
+              "link": "",
+              "percent": 100,
+              "progress_text": "1/1",
+              "claimed": true,
+              "claimed_at": "00:33:36",
+              "status": "claimed",
+              "status_text": "已领取",
+              "action_text": "已领取",
+              "reward_text": "2 经验、2 成长值",
+              "rewards": [
+                {
+                  "icon": "ri-flashlight-fill",
+                  "icon_url": "",
+                  "type": "exp",
+                  "number": 2,
+                  "text": "经验"
+                },
+                {
+                  "icon": "ri-vip-diamond-fill",
+                  "icon_url": "",
+                  "type": "vip_number",
+                  "number": 2,
+                  "text": "成长值"
+                }
+              ]
+            },
+            {
+              "id": "mrqd1",
+              "group": "daily",
+              "name": "每日签到",
+              "desc": "每日签到的奖励",
+              "icon": "",
+              "icon_class": "ri-checkbox-circle-line",
+              "icon_color": "",
+              "icon_bg": "",
+              "link": "",
+              "percent": 100,
+              "progress_text": "1/1",
+              "claimed": true,
+              "claimed_at": "00:33:36",
+              "status": "claimed",
+              "status_text": "已领取",
+              "action_text": "已领取",
+              "reward_text": "2 经验、2 成长值",
+              "rewards": [
+                {
+                  "icon": "ri-flashlight-fill",
+                  "icon_url": "",
+                  "type": "exp",
+                  "number": 2,
+                  "text": "经验"
+                },
+                {
+                  "icon": "ri-vip-diamond-fill",
+                  "icon_url": "",
+                  "type": "vip_number",
+                  "number": 2,
+                  "text": "成长值"
+                }
+              ]
+            },
+            {
+              "id": "plwcnr1",
+              "group": "daily",
+              "name": "评论五次内容",
+              "desc": "评论5次内容就可以领取啦",
+              "icon": "",
+              "icon_class": "ri-checkbox-circle-line",
+              "icon_color": "",
+              "icon_bg": "",
+              "link": "",
+              "percent": 0,
+              "progress_text": "0/5",
+              "claimed": false,
+              "claimed_at": "",
+              "status": "doing",
+              "status_text": "进行中",
+              "action_text": "去完成",
+              "reward_text": "5 经验、5 成长值",
+              "rewards": [
+                {
+                  "icon": "ri-flashlight-fill",
+                  "icon_url": "",
+                  "type": "exp",
+                  "number": 5,
+                  "text": "经验"
+                },
+                {
+                  "icon": "ri-vip-diamond-fill",
+                  "icon_url": "",
+                  "type": "vip_number",
+                  "number": 5,
+                  "text": "成长值"
+                }
+              ]
+            },
+            {
+              "id": "fbyctz1",
+              "group": "daily",
+              "name": "发布任意内容",
+              "desc": "在社区论坛发表一次帖子就可以领取",
+              "icon": "",
+              "icon_class": "ri-checkbox-circle-line",
+              "icon_color": "",
+              "icon_bg": "",
+              "link": "",
+              "percent": 0,
+              "progress_text": "0/1",
+              "claimed": false,
+              "claimed_at": "",
+              "status": "doing",
+              "status_text": "进行中",
+              "action_text": "去完成",
+              "reward_text": "2 经验、2 成长值",
+              "rewards": [
+                {
+                  "icon": "ri-flashlight-fill",
+                  "icon_url": "",
+                  "type": "exp",
+                  "number": 2,
+                  "text": "经验"
+                },
+                {
+                  "icon": "ri-vip-diamond-fill",
+                  "icon_url": "",
+                  "type": "vip_number",
+                  "number": 2,
+                  "text": "成长值"
+                }
+              ]
+            },
+            {
+              "id": "dzytpl1",
+              "group": "daily",
+              "name": "点赞一条评论",
+              "desc": "点赞一条评论",
+              "icon": "",
+              "icon_class": "ri-checkbox-circle-line",
+              "icon_color": "",
+              "icon_bg": "",
+              "link": "",
+              "percent": 0,
+              "progress_text": "0/1",
+              "claimed": false,
+              "claimed_at": "",
+              "status": "doing",
+              "status_text": "进行中",
+              "action_text": "去完成",
+              "reward_text": "2 经验、2 成长值",
+              "rewards": [
+                {
+                  "icon": "ri-flashlight-fill",
+                  "icon_url": "",
+                  "type": "exp",
+                  "number": 2,
+                  "text": "经验"
+                },
+                {
+                  "icon": "ri-vip-diamond-fill",
+                  "icon_url": "",
+                  "type": "vip_number",
+                  "number": 2,
+                  "text": "成长值"
+                }
+              ]
+            },
+            {
+              "id": "dsypnr1",
+              "group": "daily",
+              "name": "打赏一篇内容",
+              "desc": "社区那么多优质的内容，好歹给优秀的作者打赏打赏",
+              "icon": "",
+              "icon_class": "ri-checkbox-circle-line",
+              "icon_color": "",
+              "icon_bg": "",
+              "link": "",
+              "percent": 0,
+              "progress_text": "0/1",
+              "claimed": false,
+              "claimed_at": "",
+              "status": "doing",
+              "status_text": "进行中",
+              "action_text": "去完成",
+              "reward_text": "2 经验、2 成长值",
+              "rewards": [
+                {
+                  "icon": "ri-flashlight-fill",
+                  "icon_url": "",
+                  "type": "exp",
+                  "number": 2,
+                  "text": "经验"
+                },
+                {
+                  "icon": "ri-vip-diamond-fill",
+                  "icon_url": "",
+                  "type": "vip_number",
+                  "number": 2,
+                  "text": "成长值"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "base",
+          "title": "成长任务",
+          "desc": "长期有效，完善资料和提升账号成长即可完成",
+          "items": [
+            {
+              "id": "bdyxh1",
+              "group": "base",
+              "name": "绑定邮箱号",
+              "desc": "设置方法：我的主页-设置-账户设置",
+              "icon": "",
+              "icon_class": "ri-mail-line",
+              "icon_color": "",
+              "icon_bg": "",
+              "link": "",
+              "percent": 100,
+              "progress_text": "1/1",
+              "claimed": true,
+              "claimed_at": "",
+              "status": "claimed",
+              "status_text": "已领取",
+              "action_text": "已领取",
+              "reward_text": "2 金币、2 经验、2 成长值、1 改名卡",
+              "rewards": [
+                {
+                  "icon": "ri-copper-coin-line",
+                  "icon_url": "",
+                  "type": "credit",
+                  "number": 2,
+                  "text": "金币"
+                },
+                {
+                  "icon": "ri-flashlight-fill",
+                  "icon_url": "",
+                  "type": "exp",
+                  "number": 2,
+                  "text": "经验"
+                },
+                {
+                  "icon": "ri-vip-diamond-fill",
+                  "icon_url": "",
+                  "type": "vip_number",
+                  "number": 2,
+                  "text": "成长值"
+                },
+                {
+                  "icon": "ri-id-card-line",
+                  "icon_url": "",
+                  "type": "nickname",
+                  "number": 1,
+                  "text": "改名卡"
+                }
+              ]
+            },
+            {
+              "id": "bdqq1",
+              "group": "base",
+              "name": "绑定QQ登录",
+              "desc": "设置方法：我的主页-设置-账户设置",
+              "icon": "",
+              "icon_class": "ri-qq-line",
+              "icon_color": "",
+              "icon_bg": "",
+              "link": "",
+              "percent": 0,
+              "progress_text": "0/1",
+              "claimed": false,
+              "claimed_at": "",
+              "status": "doing",
+              "status_text": "进行中",
+              "action_text": "去完成",
+              "reward_text": "2 经验、2 成长值、1 补签卡",
+              "rewards": [
+                {
+                  "icon": "ri-flashlight-fill",
+                  "icon_url": "",
+                  "type": "exp",
+                  "number": 2,
+                  "text": "经验"
+                },
+                {
+                  "icon": "ri-vip-diamond-fill",
+                  "icon_url": "",
+                  "type": "vip_number",
+                  "number": 2,
+                  "text": "成长值"
+                },
+                {
+                  "icon": "ri-calendar-check-line",
+                  "icon_url": "",
+                  "type": "sign",
+                  "number": 1,
+                  "text": "补签卡"
+                }
+              ]
+            },
+            {
+              "id": "cwviphy1",
+              "group": "base",
+              "name": "成为VIP会员",
+              "desc": "开通VIP会员更尊贵！",
+              "icon": "",
+              "icon_class": "ri-vip-crown-2-line",
+              "icon_color": "",
+              "icon_bg": "",
+              "link": "",
+              "percent": 0,
+              "progress_text": "0/1",
+              "claimed": false,
+              "claimed_at": "",
+              "status": "doing",
+              "status_text": "进行中",
+              "action_text": "去完成",
+              "reward_text": "50 经验、50 成长值",
+              "rewards": [
+                {
+                  "icon": "ri-flashlight-fill",
+                  "icon_url": "",
+                  "type": "exp",
+                  "number": 50,
+                  "text": "经验"
+                },
+                {
+                  "icon": "ri-vip-diamond-fill",
+                  "icon_url": "",
+                  "type": "vip_number",
+                  "number": 50,
+                  "text": "成长值"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "treasures": {
+        "title": "宝箱任务",
+        "desc": "累计领取任务奖励后解锁宝箱",
+        "items": []
+      },
+      "harvest": {
+        "wallet": [
+          {
+            "label": "金币",
+            "value": 663,
+            "delta": 2
+          },
+          {
+            "label": "经验值",
+            "value": 3753,
+            "delta": 14
+          }
+        ],
+        "count": 3,
+        "items": [
+          {
+            "at": "00:33:36",
+            "name": "每日签到",
+            "rewards": [
+              {
+                "type": "exp",
+                "number": 2,
+                "text": "经验",
+                "icon": "ri-flashlight-fill",
+                "icon_url": ""
+              },
+              {
+                "type": "vip_number",
+                "number": 2,
+                "text": "成长值",
+                "icon": "ri-vip-diamond-fill",
+                "icon_url": ""
+              }
+            ]
+          },
+          {
+            "at": "00:33:36",
+            "name": "每日登陆",
+            "rewards": [
+              {
+                "type": "exp",
+                "number": 2,
+                "text": "经验",
+                "icon": "ri-flashlight-fill",
+                "icon_url": ""
+              },
+              {
+                "type": "vip_number",
+                "number": 2,
+                "text": "成长值",
+                "icon": "ri-vip-diamond-fill",
+                "icon_url": ""
+              }
+            ]
+          },
+          {
+            "at": "00:33:25",
+            "name": "已下架的任务",
+            "rewards": [
+              {
+                "type": "credit",
+                "number": 2,
+                "text": "金币",
+                "icon": "ri-copper-coin-line",
+                "icon_url": "",
+                "title": ""
+              },
+              {
+                "type": "exp",
+                "number": 10,
+                "text": "经验",
+                "icon": "ri-flashlight-fill",
+                "icon_url": "",
+                "title": ""
+              },
+              {
+                "type": "vip_number",
+                "number": 10,
+                "text": "成长值",
+                "icon": "ri-vip-diamond-fill",
+                "icon_url": "",
+                "title": ""
+              }
+            ]
+          }
+        ],
+        "total": 471
+      },
+      "props": [
+        {
+          "name": "补签卡",
+          "desc": "补回当日前30日漏签",
+          "icon": "ri-calendar-check-line",
+          "quantity": 4
+        },
+        {
+          "name": "改名卡",
+          "desc": "修改昵称时抵扣",
+          "icon": "ri-id-card-line",
+          "quantity": 2
+        }
+      ]
+    },
+    "rewards": [
+      {
+        "type": "currency",
+        "key": "exp",
+        "name": "经验",
+        "amount": "2",
+        "balance": "3753"
+      },
+      {
+        "type": "currency",
+        "key": "vip_number",
+        "name": "VIP 数值",
+        "amount": "2",
+        "balance": "7199"
+      }
+    ]
+  },
+  "timestamp": 1790269261,
+  "request_id": "0123456789abcdef"
+}
